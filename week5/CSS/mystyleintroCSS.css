@@ -1,14 +1,15 @@
 body {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52fGtjbhgi-QDffjJKMCvbPcigD6TwfvQXA&usqp=CAU);
+    background-image: url(../CSS/css_img/clound.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 div#name {
-    background-image: url(https://1000logos.net/wp-content/uploads/2020/05/Google-Photos-logo.png), url(https://i.pinimg.com/originals/3d/08/e0/3d08e03cb40252526fee2036a67f07f1.gif);
-    background-repeat: no-repeat, repeat-x;
+    background-image: url(../CSS/css_img/flower.png), url(../CSS/css_img/wind.jpg);
+    background-repeat: no-repeat;
     background-position: right, center;
+    background-size: 100px, cover;
     color: rgb(255, 255, 255);
     font-size: 60px;
     text-align: center;
