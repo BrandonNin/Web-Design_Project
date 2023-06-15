@@ -15,6 +15,7 @@ div#name {
     font-family: 'Dancing Script', cursive;
     font-family: 'Gasoek One', sans-serif;
     font-family: 'Pacifico', cursive;
+    text-shadow: 4px 4px 4px black;
 }
 
 div#txt1 {
@@ -26,5 +27,5 @@ div#txt1 {
     color: rgb(255, 251, 23);
     font-size: 30px;
     text-align: center;
-
+    text-shadow: 4px 4px 4px black;
 }
