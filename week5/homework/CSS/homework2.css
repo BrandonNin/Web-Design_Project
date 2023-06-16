@@ -1,0 +1,60 @@
+body {
+    margin-top: 0px;
+}
+
+div#head {
+    width: 40%;
+    padding: 10px;
+    border: 8px solid black;
+    border-top: 0px;
+    text-align: center;
+    margin: auto;
+}
+
+div#head h1 {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+div#table {
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+}
+
+div#one {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#one p {
+    margin: auto;
+    width: 45%;
+    text-align: justify;
+    text-align-last: center;
+}
+
+div#two {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#two p {
+    margin: auto;
+    width: 45%;
+    text-align: justify;
+    text-align-last: center;
+}
+
+div#three {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#three p {
+    margin: auto;
+    width: 45%;
+    text-align: justify;
+    text-align-last: center;
+}
