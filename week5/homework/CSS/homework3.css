@@ -1,0 +1,43 @@
+body {
+    margin: 60px 0px 60px 0px;
+}
+
+
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+div#main {
+    padding: 30px 40px 30px 80px;
+    border: 8px solid black;
+    border-right: 0px;
+    display: block;
+    text-align: right;
+}
+
+div#txt {
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fira Sans', sans-serif;
+    display: block;
+    text-align: right;
+}
+
+div#address {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#email {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#phone {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
