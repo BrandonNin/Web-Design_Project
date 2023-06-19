@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    margin-top: 50pxpx;
+    margin-top: 30px;
 }
 
 div {
@@ -10,11 +10,32 @@ div {
     border: 3px solid whitesmoke;
     border-top: 0px;
     border-bottom: 0px;
-    margin: 100px;
+    margin: 50px;
 }
 
 div#txt {
     display: block;
     color: white;
     text-align: center;
+    border-style: none;
+    padding-bottom: 30px;
+}
+
+div h2 {
+    font-size: 70px;
+    font-style: calibri;
+    font-weight: lighter;
+}
+
+
+div p {
+    font-size: 28px;
+    width: 430px;
+    font-family: Garamond, serif;
+}
+
+div img {
+    size-adjust: 50px;
+    padding: 15px 70px 10px 90px;
+    border-left: 3px solid whitesmoke;
 }
