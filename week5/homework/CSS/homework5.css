@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+div {
+    display: flex;
+    color: white;
+    margin: 40px 40px 0px 40px;
+}
+
+div#txt {
+    font-size: 35px;
+    margin: 0px 70px 70px 70px;
+}
+
+div#one {
+    display: block;
+    font-size: 20px;
+}
+
+div#two {
+    display: block;
+    font-size: 20px;
+}
+
+div#three {
+    display: block;
+    font-size: 20px;
+}
+
+p {
+    font-size: 29px;
+    border-bottom: 3px solid white;
+    padding-bottom: 30px;
+}
+
+h2 {
+    width: 250px;
+    font-weight: 100;
+    text-align: left;
+    float: left;
+}
+
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
