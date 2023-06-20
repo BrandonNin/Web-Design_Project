@@ -13,6 +13,10 @@ div#txt {
     margin: 0px 70px 70px 70px;
 }
 
+camp {
+    font-style: italic;
+}
+
 div#one {
     display: block;
     font-size: 20px;
@@ -35,7 +39,7 @@ p {
 }
 
 h2 {
-    width: 250px;
+    width: 260px;
     font-weight: 100;
     text-align: left;
     float: left;

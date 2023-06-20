@@ -13,6 +13,10 @@ div {
     margin: 50px;
 }
 
+camp {
+    font-style: italic;
+}
+
 div#txt {
     display: block;
     color: white;
