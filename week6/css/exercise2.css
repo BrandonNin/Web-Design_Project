@@ -54,3 +54,50 @@ div#container {
     color: rgb(255, 255, 255);
     margin: 0px;
 }
+
+div#blog {
+    display: flex;
+}
+
+#blog img {
+    width: 100%;
+}
+
+#first {
+    flex: 2;
+}
+
+#first>div {
+    flex-flow: column;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+#second {
+    flex: 1;
+}
+
+#second>div {
+    flex-flow: column;
+    margin: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+@media screen and (max-width:800px) {
+    div#blog {
+        flex-direction: column;
+    }
+
+    div#blog {
+        width: 100%;
+    }
+}
