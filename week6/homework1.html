@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/homework1.css">
+    <title>Brandon Site 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div id="container">
+        <div id="head">
+            <div class="h_logo">
+                <div><img src="css/css_img/logo.png" alt="LOGO" width="110px"></div>
+                <div>
+                    <h1>Brandon Nin</h1>
+                </div>
+            </div>
+            <div id="detail">
+                <div id="phone">
+                    <div>
+                        <h3>011-16552945</h3>
+                    </div>
+                </div>
+                <div class="topnav">
+                    <div id="menu">
+                        <div><img src="css/css_img/home.png" alt="home" width="40px">
+                            <a href="#">Home</a>
+                        </div>
+                        <div><img src="css/css_img/about.png" alt="abut" width="40px">
+                            <a href="#">About</a>
+                        </div>
+                        <div><img src="css/css_img/contact.png" alt="contact" width="40px">
+                            <a href="#">Contact</a>
+                        </div>
+                    </div>
+                    <div id="logo">
+                        <div><a href="#"><img src="css/css_img/facebook.png" alt="facebook" width="40px"></a></div>
+                        <div><a href="#"><img src="css/css_img/instagram.png" alt="instagram" width="40px"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="slideshow">
+            <div class="show"><img src="css/css_img/2517549.jpg" alt="img" width="100%"></div>
+            <div class="show"><img src="css/css_img/Anime_2023_JJK_Yuta_New.jpg" alt="img" width="100%"></div>
+            <div class="show"><img src="css/css_img/show2.jpg" alt="img" width="100%"></div>
+            <div class="show"><img src="css/css_img/cute-anime-pfp-qzjzpajr2cdq2jz3.jpg" alt="img" width="100%"></div>
+            <button type="button" id="slideshow-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button type="button" id="slideshow-right" onclick="plusDivs(1)">&#10095;</button>
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("show");
+                    if (n > x.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = x.length }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+                var myIndex = 0;
+                carousel();
+
+                function carousel() {
+                    var i;
+                    var x = document.getElementsByClassName("show");
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    myIndex++;
+                    if (myIndex > x.length) { myIndex = 1 }
+                    x[myIndex - 1].style.display = "block";
+                    setTimeout(carousel, 3000);
+                }
+            </script>
+        </div>
+        <div id="body">
+            <div id="txt">
+                <h4>When walking through an art museum, there are rarely paintings of caricatures on display. Though
+                    some
+                    artists have developed avant guarde or impressionist styles, these are not considered cartoons for
+                    the
+                    simple fact that they never were displayed on the silver screen. Yet paintings of Disney characters
+                    sell
+                    for thousands at auction if they are authentic. Disney separates itself from other animation studios
+                    with their signature style and tedious techniques, like traditional artists. Since Disney has been
+                    making animated films for years, it has become a huge part of American culture. Many people even
+                    classify the older, hand-drawn films to be moving works of art. On the other hand, animated TV shows
+                    from Japan known as Anime, are not considered to be works of art. Often starting as a comic like
+                    sterilization known as manga, anime has captured the hearts of millions of viewers. </h4>
+            </div>
+            <div id="link">
+                <div>
+                    <h2>Link 1</h2>
+                </div>
+                <div>
+                    <h2>Link 2</h2>
+                </div>
+                <div>
+                    <h2>Link 3</h2>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h2>End of Page</h2>
+        </footer>
+    </div>
+</body>
+
+</html>
