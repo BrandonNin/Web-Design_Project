@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(35, 4, 51);
+    margin: 0px;
+}
+
+#header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 10px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu div {
+    font-size: 20px;
+    margin: 20px;
+}
+
+#menu a {
+    color: white;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#menu div:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+}
+
+#about_me h1 {
+    position: relative;
+    color: gray;
+    font-size: 120px;
+    text-align: center;
+    opacity: 40%;
+}
+
+#about_me h4 {
+    position: absolute;
+    left: 40%;
+    top: 18%;
+    font-size: 50px;
+    color: white;
+    padding: 1px;
+    border-bottom: 2px solid rgb(255, 163, 253);
+}
+
+#img_brd {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+#brd {
+    margin: 100px;
+    margin-left: 300px;
+    font-size: 40px;
+    color: white;
+}
+
+#brd h2 {
+    font-size: 80px;
+}
+
+#img {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+
+#discribe {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+#discribe img {
+    margin-right: 40px;
+    margin-top: 5px;
+}
+
+#discribe p {
+    color: white;
+    font-size: 20px;
+}
+
+#box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box>div {
+    padding: 50px;
+    border: 4px solid rgb(255, 163, 253);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+}
+
+#edu {
+    color: white;
+}
+
+#top_edu {
+    width: 100px;
+    margin-top: 60px;
+    padding: 8px;
+    background-color: rgb(255, 163, 253);
+    text-align: left;
+}
+
+#edu_2026 {
+    display: flex;
+    align-items: center;
+}
+
+#edu_2026 h3 {
+    font-size: 80px;
+    margin: 100px;
+    justify-content: left;
+}
+
+#edu_2026 img {
+    margin: 60px;
+    justify-content: center;
+}
+
+#edu_2026 h2 {
+    font-size: 40px;
+    margin: 20px;
+    justify-content: center;
+}
+
+#edu_2026 p {
+    font-size: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+#edu_2024 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#edu_2024 h3 {
+    font-size: 80px;
+    margin: 100px;
+    justify-content: left;
+}
+
+#edu_2024 img {
+    margin: 60px;
+    justify-content: center;
+}
+
+#edu_2024 h2 {
+    font-size: 40px;
+    margin: 20px;
+    justify-content: center;
+}
+
+#edu_2024 p {
+    font-size: 20px;
+    margin: 20px;
+    justify-content: center;
+}
+
+#edu_2021 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#edu_2021 h3 {
+    font-size: 80px;
+    margin: 100px;
+    justify-content: left;
+}
+
+#edu_2021 img {
+    margin: 60px;
+    justify-content: center;
+}
+
+#edu_2021 h2 {
+    font-size: 40px;
+    margin: 20px;
+    justify-content: center;
+}
+
+#edu_2021 p {
+    font-size: 20px;
+    margin: 20px;
+    justify-content: center;
+}

@@ -63,7 +63,9 @@ body {
 
 .background {
     position: relative;
+    background-image: image();
 }
+
 
 #bg {
     opacity: 0.75;
