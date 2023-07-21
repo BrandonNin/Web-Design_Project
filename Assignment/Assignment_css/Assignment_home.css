@@ -3,10 +3,6 @@ body {
     margin: 0px;
 }
 
-/* #container {
-    background-color: rgb(35, 4, 51);
-} */
-
 #header {
     background-color: black;
     display: flex;
@@ -23,7 +19,8 @@ body {
 }
 
 #menu div {
-    font-size: 20px;
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
     margin: 20px;
 }
 
@@ -31,41 +28,103 @@ body {
     color: white;
     padding: 10px;
     vertical-align: middle;
+    text-decoration: none;
 }
 
 #menu div:hover {
-    background-color: #ddd;
+    padding: 10px;
+    background-color: rgb(255, 163, 253);
     color: rgb(0, 0, 0);
 }
 
-#main {
+.main {
+    background-image: url(A_css_img/hack_code.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 60%;
     position: relative;
-    width: 2000px;
-    height: 900px;
 }
 
-#earth {
-    opacity: 15%;
-    position: absolute;
-    width: 100%;
+.main {
+    min-height: 800px;
+    height: calc(100vh);
 }
 
-#coding img {
-    opacity: 50%;
+#earth img {
     position: absolute;
-    width: 100%;
-    right: 0px;
+    bottom: 0%;
+    right: 0%;
+    width: 20%;
+    opacity: 60%;
 }
 
 #name {
+    font-family: 'Krona One', sans-serif;
     position: absolute;
-    width: 50%;
-    top: 200px;
-    left: 100px;
-    font-size: 50px;
+    top: 5%;
+    left: 10%;
+    font-size: 45px;
     color: white;
 }
 
-#name h4 {
-    margin: 0px;
+#name h1 {
+    color: rgb(255, 163, 253);
+}
+
+
+@media (max-width: 960px) {
+    #name {
+        font-family: 'Krona One', sans-serif;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        font-size: 30px;
+        color: white;
+    }
+
+    #earth img {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 40%;
+    }
+}
+
+@media (max-width: 640px) {
+    #name {
+        font-family: 'Krona One', sans-serif;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        font-size: 20px;
+        color: white;
+    }
+
+    #earth img {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 50%;
+        opacity: 60%;
+    }
+}
+
+@media (max-width: 410px) {
+    #name {
+        font-family: 'Krona One', sans-serif;
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        font-size: 20px;
+        color: white;
+    }
+
+    #earth img {
+        position: absolute;
+        bottom: 0%;
+        right: 0%;
+        width: 50%;
+        opacity: 60%;
+    }
 }
