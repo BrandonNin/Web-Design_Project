@@ -143,17 +143,17 @@ body {
     align-items: center;
 }
 
-.edu .c {
+.edu .year {
     flex: 0.5;
 }
 
-.edu .a {
-    display: block;
-    flex: 2;
+.edu .logo {
+    flex: 1;
 }
 
-.edu .i {
-    flex: 1;
+.edu .text {
+    display: block;
+    flex: 2;
 }
 
 .edu h2 {
