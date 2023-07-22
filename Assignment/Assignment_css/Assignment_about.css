@@ -99,6 +99,10 @@ body {
     justify-content: space-evenly;
 }
 
+#box h3 {
+    font-size: 40px;
+}
+
 #box>div {
     padding: 50px;
     border: 4px solid rgb(255, 163, 253);
@@ -108,40 +112,58 @@ body {
     width: 200px;
 }
 
-#edu {
+.main_edu {
     color: white;
 }
 
-#top_edu {
-    width: 100px;
+#top {
     margin-top: 60px;
     padding: 8px;
     background-color: rgb(255, 163, 253);
     text-align: left;
 }
 
-.edu>div {
+.edu div {
     display: flex;
     align-items: center;
 }
 
-.edu h3 {
-    font-size: 50px;
+.edu div {
     flex: 1;
+    justify-content: center;
+}
+
+.edu h3 {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .edu img {
+    align-items: center;
+}
+
+.edu .c {
+    flex: 0.5;
+}
+
+.edu .a {
+    display: block;
+    flex: 2;
+}
+
+.edu .i {
     flex: 1;
 }
 
 .edu h2 {
-    font-size: 40px;
-    flex: 2;
+    font-size: 30px;
+    justify-content: center;
 }
 
 .edu p {
-    font-size: 30px;
-    flex: 2;
+    font-size: 24px;
+    justify-content: center;
 }
 
 /* #edu_2026 {
