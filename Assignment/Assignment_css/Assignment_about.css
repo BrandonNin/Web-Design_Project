@@ -47,7 +47,7 @@ body {
 
 #about_me h4 {
     position: absolute;
-    left: 40%;
+    left: 35%;
     top: 18%;
     font-size: 50px;
     color: white;
@@ -55,33 +55,31 @@ body {
     border-bottom: 2px solid rgb(255, 163, 253);
 }
 
-#img_brd {
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-}
-
 #brd {
-    margin: 100px;
-    margin-left: 300px;
+    position: relative;
+    left: 10%;
     font-size: 40px;
     color: white;
+    margin-top: 100px;
+    max-width: fit-content;
 }
 
 #brd h2 {
     font-size: 80px;
 }
 
-#img {
+#brd_img img {
     position: absolute;
-    bottom: 10%;
-    right: 10%;
+    top: 10%;
+    left: 60%;
+    width: 400px;
 }
 
 #discribe {
     display: flex;
     justify-content: center;
     margin: 50px;
+    margin-top: 200px;
 }
 
 #discribe img {
@@ -121,6 +119,7 @@ body {
     padding: 8px;
     background-color: rgb(255, 163, 253);
     text-align: left;
+    max-width: 130px;
 }
 
 .edu div {
@@ -166,89 +165,21 @@ body {
     justify-content: center;
 }
 
-/* #edu_2026 {
-    display: flex;
-    align-items: center;
-} */
+@media (max-width: 960px) {
 
+    #brd {
+        left: 10%;
+        font-size: 20px;
+        color: white;
+        margin-top: 100px;
+        width: fit-content;
+    }
 
-/* #edu_2026 h3 {
-    font-size: 80px;
-    margin: 100px;
-    justify-content: left;
+    #brd h2 {
+        font-size: 40px;
+    }
+
+    #brd_img img {
+        width: 200px;
+    }
 }
-
-#edu_2026 img {
-    margin: 60px;
-    justify-content: center;
-}
-
-#edu_2026 h2 {
-    font-size: 40px;
-    margin: 20px;
-    justify-content: center;
-} 
-
-#edu_2026 p {
-    font-size: 20px;
-    margin: 20px;
-    justify-content: center;
-}
-
-#edu_2024 {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-}
-
-#edu_2024 h3 {
-    font-size: 80px;
-    margin: 100px;
-    justify-content: left;
-}
-
-#edu_2024 img {
-    margin: 60px;
-    justify-content: center;
-}
-
-#edu_2024 h2 {
-    font-size: 40px;
-    margin: 20px;
-    justify-content: center;
-}
-
-#edu_2024 p {
-    font-size: 20px;
-    margin: 20px;
-    justify-content: center;
-}
-
-#edu_2021 {
-    display: flex;
-    align-items: center;
-    justify-content: left;
-}
-
-#edu_2021 h3 {
-    font-size: 80px;
-    margin: 100px;
-    justify-content: left;
-}
-
-#edu_2021 img {
-    margin: 60px;
-    justify-content: center;
-}
-
-#edu_2021 h2 {
-    font-size: 40px;
-    margin: 20px;
-    justify-content: center;
-}
-
-#edu_2021 p {
-    font-size: 20px;
-    margin: 20px;
-    justify-content: center;
-}*/
