@@ -33,6 +33,7 @@ body {
 }
 
 #menu div:hover {
+    padding: 10px;
     background-color: rgb(255, 163, 253);
     color: rgb(0, 0, 0);
 }
