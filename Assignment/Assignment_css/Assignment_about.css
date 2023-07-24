@@ -167,9 +167,26 @@ body {
 
 @media (max-width: 960px) {
 
+    #about_me h1 {
+        position: relative;
+        color: gray;
+        font-size: 80px;
+        text-align: center;
+        opacity: 40%;
+    }
+
+    #about_me h4 {
+        position: absolute;
+        left: 30%;
+        top: 20%;
+        font-size: 30px;
+        color: white;
+        padding: 1px;
+        border-bottom: 2px solid rgb(255, 163, 253);
+    }
+
     #brd {
-        left: 10%;
-        font-size: 20px;
+        position: relative;
         color: white;
         margin-top: 100px;
         width: fit-content;
@@ -180,6 +197,117 @@ body {
     }
 
     #brd_img img {
+        width: 300px;
+        top: 30%;
+    }
+}
+
+@media (max-width: 410px) {
+
+    #about_me h1 {
+        position: relative;
+        color: gray;
+        font-size: 50px;
+        text-align: center;
+        opacity: 40%;
+    }
+
+    #about_me h4 {
+        position: absolute;
+        left: 23%;
+        top: 12%;
+        font-size: 24px;
+        color: white;
+        padding: 1px;
+        text-decoration-line: underline rgb(255, 163, 253);
+    }
+
+    #profile_brd {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #brd {
+        color: white;
+        margin-top: 100px;
+        width: fit-content;
+    }
+
+    #brd h2 {
+        font-size: 30px;
+    }
+
+    #brd p {
+        font-size: 10px;
+    }
+
+    #brd_img img {
+        width: 250px;
+        left: 50%;
+        top: 20%;
+    }
+
+    #discribe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin: 50px;
+        margin-top: 200px;
+    }
+
+    #discribe img {
+        margin-right: 40px;
+        margin-top: 5px;
+    }
+
+    #discribe p {
+        color: white;
+        font-size: 20px;
+    }
+
+    #box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    #box h3 {
+        font-size: 40px;
+    }
+
+    #box>div {
+        padding: 50px;
+        border: 4px solid rgb(255, 163, 253);
+        text-align: center;
+        color: white;
+        font-size: 20px;
         width: 200px;
+    }
+
+    .main_edu {
+        color: white;
+    }
+
+    #top {
+        margin-top: 60px;
+        padding: 8px;
+        background-color: rgb(255, 163, 253);
+        text-align: left;
+        max-width: 130px;
+    }
+
+    .edu div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .edu h3 {
+        margin-top: 100px;
+        font-size: 50px;
     }
 }
