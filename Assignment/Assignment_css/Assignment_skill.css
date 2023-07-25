@@ -56,9 +56,8 @@ body {
     border-bottom: 2px solid rgb(255, 163, 253);
 }
 
-.security_skill_main>div {
-    display: flex;
-    justify-content: space-between;
+#security_header {
+    margin-left: 50px;
 }
 
 #security_header h2 {
@@ -72,18 +71,54 @@ body {
 }
 
 #security_percentage {
+    display: flex;
+    justify-content: space-between;
     margin-top: 100px;
     text-align: center;
     color: white;
     font-size: 25px;
 }
 
+#programming_header {
+    margin-right: 50px;
+}
+
+#programming_header h2 {
+    margin-top: 150px;
+    color: rgb(255, 163, 253);
+    font-size: 50px;
+    text-align: right;
+}
+
+#programming_header p {
+    margin-bottom: 150px;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+}
+
 #programming_percentage>div {
     display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    color: white;
 }
 
 .logo_img img {
     width: 60px;
+}
+
+.logo_img {
+    flex: 0.2;
+}
+
+.name {
+    flex: 0.5;
+}
+
+.name_percentage {
+    flex: 2;
+    text-align: center;
 }
 
 .img_percentage {
@@ -91,5 +126,6 @@ body {
 }
 
 .img_percentage img {
-    width: 150px;
+    min-width: 900px;
+    max-height: 30px;
 }
