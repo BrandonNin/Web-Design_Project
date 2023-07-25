@@ -55,3 +55,41 @@ body {
     padding: 1px;
     border-bottom: 2px solid rgb(255, 163, 253);
 }
+
+.security_skill_main>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#security_header h2 {
+    color: rgb(255, 163, 253);
+    font-size: 50px;
+}
+
+#security_header p {
+    color: white;
+    font-size: 30px;
+}
+
+#security_percentage {
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+#programming_percentage>div {
+    display: flex;
+}
+
+.logo_img img {
+    width: 60px;
+}
+
+.img_percentage {
+    display: block;
+}
+
+.img_percentage img {
+    width: 150px;
+}
