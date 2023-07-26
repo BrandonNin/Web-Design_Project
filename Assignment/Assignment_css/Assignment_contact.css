@@ -1,0 +1,187 @@
+body {
+    background-color: rgb(82, 5, 123);
+    margin: 0px;
+    font-family: 'Krona One', sans-serif;
+}
+
+#header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin: 10px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu div {
+    font-family: 'Krona One', sans-serif;
+    font-size: 15px;
+    margin: 20px;
+}
+
+#menu a {
+    color: white;
+    padding: 10px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#menu div:hover {
+    padding: 10px;
+    background-color: rgb(255, 163, 253);
+    color: rgb(0, 0, 0);
+}
+
+
+#Contact_head h1 {
+    position: relative;
+    color: gray;
+    font-size: 120px;
+    text-align: center;
+    opacity: 40%;
+}
+
+#Contact_head h4 {
+    position: absolute;
+    left: 37%;
+    top: 18%;
+    font-size: 50px;
+    color: white;
+    padding: 1px;
+    border-bottom: 2px solid rgb(255, 163, 253);
+}
+
+#message_box>div {
+    background-color: white;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 280px;
+}
+
+#name_email_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    margin-left: 100px;
+    width: 150px;
+}
+
+#contact_details_main h2 {
+    margin-top: 100px;
+    font-size: 60px;
+    color: rgb(255, 163, 253);
+}
+
+#phone_number {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    color: white;
+}
+
+#phone_number div {
+    margin: 0px 40px 0px 40px;
+}
+
+#email_address {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    color: white;
+}
+
+#email_address div {
+    margin: 0px 40px 0px 40px;
+}
+
+#follow_logo {
+    display: flex;
+}
+
+#follow_logo img {
+    width: 50px;
+    margin: 0px 30px 80px 30px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 960px) {
+
+    #Contact_head h1 {
+        position: relative;
+        color: gray;
+        font-size: 80px;
+        text-align: center;
+        opacity: 40%;
+    }
+
+    #Contact_head h4 {
+        position: absolute;
+        left: 30%;
+        top: 20%;
+        font-size: 30px;
+        color: white;
+        padding: 1px;
+        border-bottom: 2px solid rgb(255, 163, 253);
+    }
+}
+
+@media (max-width: 420px) {
+
+    #Contact_head h1 {
+        position: relative;
+        color: gray;
+        font-size: 50px;
+        text-align: center;
+        opacity: 40%;
+    }
+
+    #Contact_head h4 {
+        position: absolute;
+        left: 23%;
+        top: 15%;
+        font-size: 24px;
+        color: white;
+        padding: 1px;
+        text-decoration-line: underline rgb(255, 163, 253);
+    }
+
+    #contact_details_main h2 {
+        margin-top: 100px;
+        font-size: 30px;
+        color: rgb(255, 163, 253);
+    }
+
+    #phone_number {
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        color: white;
+    }
+
+    #email_address {
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        color: white;
+    }
+
+    #follow_logo img {
+        width: 25px;
+        margin: 0px 30px 80px 30px;
+    }
+}
